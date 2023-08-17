@@ -1,0 +1,104 @@
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores
+$ git clone https://github.com/Davejfc/Checkpoint-DaveFlores-16-08.git
+Cloning into 'Checkpoint-DaveFlores-16-08'...
+warning: You appear to have cloned an empty repository.
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores
+$ cd Checkpoint-DaveFlores-16-08
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (main)
+$ touch main.js index.html
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+        main.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (main)
+$ git add .
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (main)
+$ git commit -m "01 de DaveFlores"
+[main (root-commit) b5a1938] 01 de DaveFlores
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 226 bytes | 56.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Davejfc/Checkpoint-DaveFlores-16-08.git
+ * [new branch]      main -> main
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (main)
+$ git branch "feature"
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (main)
+$ git checkout feature
+Switched to branch 'feature'
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (feature)
+$ mkdir Hardware Software SeguridadInformatica
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (feature)
+$ touch ./Hardware/resumen.txt
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (feature)
+$ touch ./Software/resumen.txt ./SeguridadInformatica/resumen.txt
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (feature)
+$ git add .
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (feature)
+$ git commit -m "02 de DaveFlores"
+[feature 985ffe1] 02 de DaveFlores
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hardware/resumen.txt
+ create mode 100644 SeguridadInformatica/resumen.txt
+ create mode 100644 Software/resumen.txt
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (feature)
+$ git push origin feature
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 363 bytes | 181.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/Davejfc/Checkpoint-DaveFlores-16-08/pull/new/feature
+remote:
+To https://github.com/Davejfc/Checkpoint-DaveFlores-16-08.git
+ * [new branch]      feature -> feature
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (feature)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (main)
+$ git mv index.html resumenSoftware.txt
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (main)
+$ git mv main.js resumenHardware.txt
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (main)
+$ touch comandos.txt
+
+Dave Flores@DESKTOP-V5R0JT6 MINGW64 ~/Desktop/Checkpoint-Dave Flores/Checkpoint-DaveFlores-16-08 (main)
+$
